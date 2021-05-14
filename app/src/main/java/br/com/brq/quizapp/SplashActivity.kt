@@ -14,8 +14,9 @@ class SplashActivity : AppCompatActivity() {
         //Tirando a Action Bar
         supportActionBar?.hide()
 
+        //Chamando a tela name dentro de 3000 segundos
         Handler().postDelayed({
-            Intent(this, FirstActivity::class.java).apply {
+            Intent(this, NameActivity::class.java).apply {
                 startActivity(this)
             }
         }, 3000)
