@@ -9,11 +9,11 @@ class Question (
     val opcaoQuatro: String,
     val respostaCerta: Int
 
-){
+)//{
     //companion object pegarQuestao(): ArrayList<Question>{
        // val ListaQuestao = arrayListOf<Question>()
 
         //val questaoUm
 
-    }
-}
+   // }
+//}
