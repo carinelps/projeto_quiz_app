@@ -22,7 +22,7 @@ class GetNameActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         btn_comecar.setOnClickListener {
-            if(txt_name.text.toString().isEmpty()){
+            if(txt_name.text.toString().isEmpty() || txt_name.text == null){
                 Toast.makeText(this, "Por favor, digiter seu nome", Toast.LENGTH_LONG).show()
             }else{
                 Intent(this, QuestionActivity::class.java).apply {

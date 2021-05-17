@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
-        <activity android:name=".GetNameActivity"></activity>
-        <activity android:name=".TesteActivity" />
+        <activity android:name=".TesteActivity"></activity>
+        <activity android:name=".GetNameActivity" />
         <activity android:name=".QuestionActivity" />
         <activity android:name=".NameActivity" />
         <activity android:name=".SplashActivity">
@@ -20,8 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".unused.RegisterActivity" />
+        <activity android:name=".unused.LoginActivity" />
     </application>
 
 </manifest>

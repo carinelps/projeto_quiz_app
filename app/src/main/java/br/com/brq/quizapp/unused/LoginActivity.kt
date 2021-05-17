@@ -1,7 +1,8 @@
-package br.com.brq.quizapp
+package br.com.brq.quizapp.unused
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import br.com.brq.quizapp.R
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
