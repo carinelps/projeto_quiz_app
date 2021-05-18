@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".unused.RegisterActivity"
-    android:orientation="vertical"
-    android:src="@drawable/ic_backzinsplash"
-    >
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="match_parent"
@@ -19,7 +17,6 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:src="@drawable/ic_backzinsplash"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"

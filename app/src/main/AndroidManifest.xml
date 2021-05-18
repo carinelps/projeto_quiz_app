@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
-        <activity android:name=".TesteActivity"></activity>
+        <activity android:name=".QuestionOneActivity"></activity>
+        <activity android:name=".QuestionActivity2" />
+        <activity android:name=".TesteActivity" />
         <activity android:name=".GetNameActivity" />
         <activity android:name=".QuestionActivity" />
         <activity android:name=".NameActivity" />

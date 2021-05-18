@@ -25,7 +25,7 @@ class GetNameActivity : AppCompatActivity() {
             if(txt_name.text.toString().isEmpty() || txt_name.text == null){
                 Toast.makeText(this, "Por favor, digiter seu nome", Toast.LENGTH_LONG).show()
             }else{
-                Intent(this, QuestionActivity::class.java).apply {
+                Intent(this, QuestionOneActivity::class.java).apply {
                     startActivity(this)
                 }
             }

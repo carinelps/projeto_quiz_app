@@ -20,15 +20,15 @@ class AdapterQuestion (val arrayQuestion: ArrayList<Question>, val context: Cont
     }
 
     override fun onBindViewHolder(holder: ViewHolderQuestion, position: Int) {
-            arrayQuestion[position].apply {
-                holder.numeroQuestao.text = this.numeroQuestao.toString()
-                holder.textoQuestao.text = this.textoQuestao
-                holder.opcaoUm.text = this.opcaoUm
-                holder.opcaoDois.text = this.opcaoDois
-                holder.opcaoTres.text = this.opcaoTres
-                holder.opcaoQuatro.text = this.opcaoQuatro
+        arrayQuestion[position].apply {
+            holder.numeroQuestao.text = this.numeroQuestao.toString()
+            holder.textoQuestao.text = this.textoQuestao
+            holder.opcaoUm.text = this.opcaoUm
+            holder.opcaoDois.text = this.opcaoDois
+            holder.opcaoTres.text = this.opcaoTres
+            holder.opcaoQuatro.text = this.opcaoQuatro
 
-            }
+        }
 
     }
 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionOneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:id="@+id/txt_Questao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:text="De quem é a famosa frase “Penso, logo existo”?"
+            android:textColor="@color/black"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+        <TextView
+            android:id="@+id/opcaoOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:hint="Platão"
+            android:textColorHint="#808080"
+            android:padding="15dp"
+            android:background="@drawable/options"
+            android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/opcaoTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:hint="Galileu Galilei"
+                android:textColorHint="#808080"
+                android:padding="15dp"
+                android:background="@drawable/options"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/opcaoThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:hint="Descartes"
+                android:textColorHint="#808080"
+                android:padding="15dp"
+                android:background="@drawable/options"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/opcaoFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:hint="Sócrates"
+                android:textColorHint="#808080"
+                android:padding="15dp"
+                android:background="@drawable/options"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/btn_enviar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="PRÓXIMA"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
