@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/ic_backzinsplash"
+    android:background="@drawable/ic_back"
     tools:context=".NameActivity">
 
     <TextView
